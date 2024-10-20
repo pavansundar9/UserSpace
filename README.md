@@ -62,21 +62,20 @@ The app will be available at *http://localhost:3000*.
 
 ## Assumptions
 
-**User Authentication**: The app assumes that users will either log in using the Reqres API or Firebase authentication.
-**Data Persistence**: Changes to user data (edit/delete) are stored locally via localStorage and do not persist on the API.
-**User Images**: Randomly selected images are used for profile pictures in the Navbar.
+- **User Authentication**: The app assumes that users will either log in using the Reqres API or Firebase authentication.
+- **Data Persistence**: Changes to user data (edit/delete) are stored locally via localStorage and do not persist on the API.
+- **User Images**: Randomly selected images are used for profile pictures in the Navbar.
 
 ## Technologies Used
 
-**React**: Frontend framework for building the user interface.
-**Firebase Authentication**: Alternative login option.
-**Axios**: For making HTTP requests to the Reqres API.
-**React Router**: For handling navigation between login, user list, and edit pages.
-**LocalStorage**: For persisting authentication tokens and user data edits locally.
-**CSS**: Basic styling for UI components.
+- **React**: Frontend framework for building the user interface.
+- **Firebase Authentication**: Alternative login option.
+- **Axios**: For making HTTP requests to the Reqres API.
+- **React Router**: For handling navigation between login, user list, and edit pages.
+- **LocalStorage**: For persisting authentication tokens and user data edits locally.
+- **CSS**: Basic styling for UI components.
 
 ## Project Structure
-    ```bash
     /src
       ├── /components
       │     ├── Navbar.js
